@@ -11,6 +11,10 @@ struct LoginView: View {
     var body: some View {
         ZStack {
             BgGradientView()
+            
+            VStack {
+                LogoView()
+            }
         }
     }
 }
